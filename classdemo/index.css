@@ -1,0 +1,12 @@
+body{
+    background-color: skyblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+#submit{
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    font-size: 20px;
+}

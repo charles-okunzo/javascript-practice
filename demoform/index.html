@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo quiz</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. What is the best programming language to learn in 2022?</p>
+            <p><input type="radio" name="question1" value="HTML">A. HTML</p>
+            <p><input type="radio" name="question1" value="Python">B. Python</p>
+            <p><input type="radio" name="question1" value="JavaScript">C. JavaScript</p>
+            <p><input type="radio" name="question1" value="PHP">D. PHP</p>
+        </div>
+        <div>
+            <p>2. What is the biggest country in the world</p>
+            <p><input type="radio" name="question2" value="Russia">A. Russia</p>
+            <p><input type="radio" name="question2" value="America">B. America</p>
+            <p><input type="radio" name="question2" value="Kenya">C. Kenya</p>
+            <p><input type="radio" name="question2" value="Canada">D. Canada</p>
+        </div>
+        <div>
+            <p>3. What is the capital city of Kenya?</p>
+            <p><input type="radio" name="question3" value="Nakuru">A. Nakuru</p>
+            <p><input type="radio" name="question3" value="Nairobi">B. Nairobi</p>
+            <p><input type="radio" name="question3" value="Mombasa">C. Mombasa</p>
+            <p><input type="radio" name="question3" value="Kisumu">D. Kisumu</p>
+        </div>
+        <div>
+            <p>4. Who is the first president of Kenya?</p>
+            <p><input type="radio" name="question4" value="J.Kenyatta">A. J.Kenyatta</p>
+            <p><input type="radio" name="question4" value="Moi">B. Moi</p>
+            <p><input type="radio" name="question4" value="Mudavadi">C. Mudavadi</p>
+            <p><input type="radio" name="question4" value="Kibaki">D. Kibaki</p>
+        </div>
+        <div>
+            <p>5. How many seasons are there in a year</p>
+            <p><input type="radio" name="question5" value="2">A. 2</p>
+            <p><input type="radio" name="question5" value="3">B. 3</p>
+            <p><input type="radio" name="question5" value="1">C. 1</p>
+            <p><input type="radio" name="question5" value="4">D. 4</p>
+        </div>
+
+        <input type="button" value="Submit" id="button" onclick="check()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>

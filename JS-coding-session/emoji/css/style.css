@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: royalblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 500ms ease-in-out;
+}
+
+button:hover{
+  transform: scale(1.2);
+}
+
+body{
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.bg{
+  background-color: red;
+}

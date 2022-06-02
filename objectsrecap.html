@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./objectrecap.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <form name="form">
+    <input type="text" name="pName" id="pName" placeholder="Enter plastic Name">
+    <input type="text" name="pColor" id="pColor" placeholder="Enter Color">
+    <input type="text" name="pMaterial" id="pMaterial" placeholder="Enter material">
+    <input type="submit" value="SUBMIT" id="submitBtn">
+  </form> -->
+
+  <form name="form" class="main-form">
+    <label for="Size">Pizza Size</label><br>
+    <select name="pizza" id="Size">
+      <optgroup>
+        <option value="">Select size</option>
+        <option value="35">Large @ $35</option>
+        <option value="25">Medium @ $25</option>
+        <option value="15">Small @ $15</option>
+      </optgroup>
+    </select><br>
+
+    <label for="Crust">Crust</label><br>
+    <select name="toppings" id="Crust">
+      <optgroup>
+        <option value="">Select Crust</option>
+        <option value="35">Crispy@ $35</option>
+        <option value="45">Stuffed @$45</option>
+        <option value="50">Gluten-free @$50</option>
+      </optgroup>
+    </select><br>
+      <p>Select toppings</p>
+    
+    <input type="checkbox" value="50" class="toppingz" name="toppings" id="toppings" >
+    <label for="toppings"></label>Cheese</label>
+
+    <input type="checkbox" value="50" class="toppingz" name="radicchio" id="radicchio">
+    <label for="radicchio"></label>Gorgonzola, radicchio.</label>
+
+    <input type="checkbox" value="50" class="toppingz" name="Pepperroni" id="Pepperroni">
+    <label for="Pepperroni"></label>Pepperroni</label>
+
+    <input type="checkbox" value="50" class="toppingz" name="mushroom" id="mushroom">
+    <label for="mushroom"></label>Mixed sliced mushrooms and garlic.</label>
+
+    <input type="checkbox" value="50" class="toppingz" name="potato" id="potato">
+    <label for="potato"></label> Potato, sausage, pancetta/speck/bacon.</label>
+   
+   
+<br>
+    <label for="pizza-number">Number of pizzas</label><br>
+    <input type="number" name="pizza-number" id="pizza-number" placeholder='Enter Number of Pizzas'><br>
+
+    <input type="submit" value="CHECKOUT" id="submitBtn"><br>
+  </form>
+
+  <div class="aftercheckout">
+    <div class="summary">
+
+    </div>
+
+    <label>Delivery mode</label><br>
+    <input type="radio" name="delivery" id="pickup">
+    <label for="pickup">Self Pick Up</label>
+
+    <input type="radio" name="delivery" id="h-delivery">
+    <label for="h-delivery">Home Delivery</label> <br>
+  </div>
+
+
+  <form id="d-address">
+    <label for="streets">Enter Street</label><br>
+    <input type="text" name="streets" id="streets"><br>
+    <label for="city">Enter City</label><br>
+    <input type="text" name="city" id="city"><br>
+    <label for="county">county</label><br>
+    <input type="text" name="county" id="county">
+    <input type="submit" value="CONFIRM ORDER">
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./objectsrecap.js"></script>
+</body>
+</html>

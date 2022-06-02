@@ -1,0 +1,12 @@
+body{
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+#button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

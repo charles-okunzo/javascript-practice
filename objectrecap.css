@@ -1,0 +1,7 @@
+input, label,select{
+  margin: 1% 0;
+}
+
+form#d-address, .aftercheckout{
+  display: none;
+}
