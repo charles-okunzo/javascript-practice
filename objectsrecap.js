@@ -143,7 +143,8 @@ $(()=>{
  
 
    
-  })$("button.addPizza").click(function(){
+  })
+  $("button.addPizza").click(function(){
     let pName = $(".name option:selected").val();
     let pSize = $("#size option:selected").val();
     let pCrust = $("#crust option:selected").val();
@@ -162,9 +163,9 @@ $(()=>{
       case "small":
         price = 700;
       default:
-        console.log("error"
+        console.log("error")
 
- })
+ }})
 
   $("button.addPizza").click(function(){
     let pName = $(".name option:selected").val();
@@ -188,4 +189,4 @@ $(()=>{
         console.log("error")
 
     }
-})
+})})})
